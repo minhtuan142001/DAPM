@@ -1,0 +1,111 @@
+header {
+    background: #495FCF;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+
+}
+
+.header__menu li:hover {
+    color: #495FCF;
+}
+
+.header {
+    height: 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.header__left {
+    width: 20rem;
+    text-align: center;
+}
+
+.header__left h3 a {
+    color: white;
+
+}
+
+.header__middle {
+    flex: 1;
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header__searchbox {
+    flex: 1;
+}
+
+.header__middle input {
+    width: 100%;
+    padding: .2rem .5rem;
+}
+
+.header__menu {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.header__menu li {
+    padding: .5rem 1.2rem;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.header__menu li a {
+    color: white;
+    font-weight: bold;
+}
+
+.header__right {
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.header__contact {
+    color: rgb(183, 174, 174);
+    padding: 1rem 0;
+}
+
+.header__btn-group {
+    padding-bottom: 1rem;
+}
+
+.header__btn-group button {
+    background: transparent;
+    border: none;
+    color: white;
+}
+
+.header__menu li:hover {
+    background: white;
+    color: #495FCF;
+    border-top: 2px solid #495FCF;
+    border-left: 2px solid #495FCF;
+    border-right: 2px solid #495FCF;
+    font-weight: bold;
+}
+
+.header__menu a:hover {
+    color: #495FCF;
+}
